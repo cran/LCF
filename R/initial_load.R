@@ -2,8 +2,9 @@
 #'
 #' This function loads and initially normalizes the raw spectra. Output is a list with the raw and initially corrected spectra.
 #' @param raw.spec List of files already loaded with read_raw_spec()
-#' @param file Vector with file names, default
+#' @param file Vector with file names
 #' @param corr.norm Initial correction and normalization parameters
+#' @param use.eshift Set TRUE, if using energy shift value, defaults to NULL
 #' @keywords normalization, correction
 #' @export
 #' @examples
@@ -14,7 +15,7 @@
 #'   corr.norm = c(-36, -15, 37, 58))
 
 
-initial_load <- function (raw.spec = NULL, file = NULL, corr.norm) {
+initial_load <- function (raw.spec = NULL, file = NULL, corr.norm, use.eshift = NULL) {
   
   if (is.null(raw.spec)) {
     
@@ -25,7 +26,7 @@ initial_load <- function (raw.spec = NULL, file = NULL, corr.norm) {
     } else {
       
       ## read the raw spectra from a file list
-      raw.specs <- read_raw_spec(file = file)
+      raw.specs <- read_raw_spec(file = file, use.eshift = use.eshift)
       
     }
     

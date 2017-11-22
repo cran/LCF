@@ -28,4 +28,3 @@ print(fit.standards)
 \keyword{approximation,}
 \keyword{correction,}
 \keyword{standards}
-

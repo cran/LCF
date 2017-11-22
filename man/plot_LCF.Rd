@@ -54,4 +54,3 @@ plot_LCF(all.samples = corr.spec.samples[1],
 }
 \keyword{LCF}
 \keyword{plot,}
-

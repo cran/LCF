@@ -40,4 +40,3 @@ athena.fit.exlcude <- fit_athena(all.samples = corr.spec.samples,
 }
 \keyword{correction}
 \keyword{normalization}
-

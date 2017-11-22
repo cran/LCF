@@ -4,14 +4,16 @@
 \alias{initial_load}
 \title{Initial loading of spectra}
 \usage{
-initial_load(raw.spec = NULL, file = NULL, corr.norm)
+initial_load(raw.spec = NULL, file = NULL, corr.norm, use.eshift = NULL)
 }
 \arguments{
 \item{raw.spec}{List of files already loaded with read_raw_spec()}
 
-\item{file}{Vector with file names, default}
+\item{file}{Vector with file names}
 
 \item{corr.norm}{Initial correction and normalization parameters}
+
+\item{use.eshift}{Set TRUE, if using energy shift value, defaults to NULL}
 }
 \description{
 This function loads and initially normalizes the raw spectra. Output is a list with the raw and initially corrected spectra.
@@ -25,4 +27,3 @@ corr.spec.samples    <- initial_load(specdat[5:8],
 }
 \keyword{correction}
 \keyword{normalization,}
-

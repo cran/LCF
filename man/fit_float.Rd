@@ -49,4 +49,3 @@ param.float.2 <- expand.grid(pre.adj.1 = seq(-43,-30,1),
 }
 \keyword{float}
 \keyword{parameters}
-

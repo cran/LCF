@@ -21,7 +21,7 @@ LC_fit(sample, standards, LC.vals, float = NULL, E.zero = NULL,
 \item{ex.smaller}{Set value to exclude small portions (as portion of 1), defaults to NULL}
 }
 \description{
-This function allows you to base-line correct and edge-step normalize XANES spectra (background correction)
+This function performs the LC fitting of the input sample/samples. It outputs the fitting results with the R-Factors as fitting statistics.
 }
 \examples{
 data(stdmix)
@@ -37,4 +37,3 @@ print(fit.result)
 }
 \keyword{correction}
 \keyword{normalization,}
-

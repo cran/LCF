@@ -4,17 +4,18 @@
 \alias{read_raw_spec}
 \title{Read raw spectra}
 \usage{
-read_raw_spec(file)
+read_raw_spec(file, use.eshift = NULL)
 }
 \arguments{
 \item{file}{The raw .xmu file}
+
+\item{use.eshift}{Set TRUE, if using energy shift value, defaults to NULL}
 }
 \description{
-This function reads the raw .xmu file, extracts E0 and returns a list with name, E0 and the raw spectrum
+This function reads the raw .xmu file, extracts E0 and energy shift and returns a list with name, E0, energy shift, and the raw spectrum
 }
 \examples{
 ## any .xmu file as output from ATHENA (>=0.9.25)
 }
 \keyword{correction}
 \keyword{normalization,}
-

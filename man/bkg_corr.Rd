@@ -27,4 +27,3 @@ print(corr.spec)
 \keyword{correction,}
 \keyword{flattening}
 \keyword{normalization,}
-

@@ -1,6 +1,6 @@
 #' Linear combination fitting function
 #'
-#' This function allows you to base-line correct and edge-step normalize XANES spectra (background correction)
+#' This function performs the LC fitting of the input sample/samples. It outputs the fitting results with the R-Factors as fitting statistics.
 #' @param sample The sample spectrum
 #' @param standards The standards spectra
 #' @param LC.vals Values for ranges of linear combination fitting, with respect to the edge-step

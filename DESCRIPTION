@@ -1,7 +1,7 @@
 Package: LCF
 Title: Linear Combination Fitting
-Version: 1.6-6
-Date: 2017-02-14
+Version: 1.7.0
+Date: 2017-11-22
 Authors@R: person("Florian", "Werner", email = "florian.werner@wzw.tum.de", role = c("aut", "cre"))
 Author: Florian Werner [aut, cre]
 Maintainer: Florian Werner <florian.werner@wzw.tum.de>
@@ -17,7 +17,7 @@ License: GPL-3
 Imports: quadprog
 Repository: CRAN
 LazyData: true
-RoxygenNote: 5.0.1
+RoxygenNote: 6.0.1
 NeedsCompilation: no
-Packaged: 2017-02-17 14:23:44 UTC; kubuntu
-Date/Publication: 2017-02-17 19:08:33
+Packaged: 2017-11-22 13:46:13 UTC; Florian
+Date/Publication: 2017-11-22 14:10:01 UTC
